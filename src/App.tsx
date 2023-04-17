@@ -1,11 +1,8 @@
+import Courses from "./pages/courses/Courses";
 
-function App() {
+export function App() {
 
-  return (
-    <div className="App text-3xl font-bold text-blue-900">
-      Hola Mundo
-    </div>
-  )
+	return (
+		<Courses />
+	);
 }
-
-export default App
